@@ -2,8 +2,10 @@
   "name": "codewithdivas",
   "version": "1.0.0",
   "description": "backend with divas",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon scr/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +13,8 @@
     "backend"
   ],
   "author": "divas sagta",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
